@@ -1,0 +1,2 @@
+
+select * from RAW.GLOBAL_MART.CUSTOMERS
