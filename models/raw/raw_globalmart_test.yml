@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: CUSTOMER
+    columns:
+      - name: CUSTOMER_ID
+        tests:
+          - unique:
+              
