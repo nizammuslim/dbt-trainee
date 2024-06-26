@@ -38,3 +38,9 @@ models:
     # Applies to all files under models/raw/
     raw:
       +materialized: table
+    marketing:
+      +materialized: table
+    tags:
+      +materialised: view
+      +tags: 
+        -"test"     
